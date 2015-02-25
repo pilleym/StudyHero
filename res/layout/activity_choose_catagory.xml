@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.quizgame.ChooseCatagory" >
+
+    <TextView
+        android:id="@+id/choose_catagory_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Choose Catagory"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/english_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English" />
+    <Button
+        android:id="@+id/history_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History" />
+    <Button
+        android:id="@+id/math_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math" />
+    <Button
+        android:id="@+id/science_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science" />
+
+</LinearLayout>
